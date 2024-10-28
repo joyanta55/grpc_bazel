@@ -10,4 +10,4 @@ When you have installed bazel in your system, run:
 ```bash
 bazel run //examples:server
 ```
-Modify the examples as per your requirements.
+Modify the `examples` as per your requirements.
