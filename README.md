@@ -1,4 +1,4 @@
-# grpc work using bazel rules.
+# grpc using bazel rules.
 compile, build, and run a grpc service. Starting from a simple proto file, this repo shows how a simple grpc server and client can be wriiten using bazel grpc rules.
 
 ## How to Run examples.
