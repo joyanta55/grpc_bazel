@@ -13,10 +13,12 @@ using example::Request;
 using example::RequestResponse;
 using example::Response;
 
+//std::string prefix = "Hello";global
 class RequestResonseServiceImpl final : public RequestResponse::Service {
   Status SayHello(ServerContext* context, const Request* request, Response* response) override {
-    std::string prefix("Hello ");
+    std::string prefix = "Hello";
     response->set_name(prefix + request->name());
+    //prefix += request->name();
     return Status::OK;
   }
 };
